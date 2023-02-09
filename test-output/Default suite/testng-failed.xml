@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.AddCustomerPage_Test">
+        <methods>
+          <include name="add_customerpjsip"/>
+          <include name="add_customerUserDevice"/>
+          <include name="add_customersip"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.AddCustomerPage_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

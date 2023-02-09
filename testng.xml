@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+  
+      
+      <class name="testcases.LoginPage_Test"/>
+      <class name="testcases.SystemRecordingPage_Test"/>
+      <class name="testcases.DirectoryPage_Test"/>
+      <class name="testcases.ListofExtensionsPage_test"/>
+      <class name="testcases.ListofExtensionsSipPage_Test"/>
+      <class name="testcases.AnnouncementsPage_Test"/>
+      <class name="testcases.MusiconHoldPage_Test"/>
+      <class name="testcases.QueuesPage_Test"/>
+      <class name="testcases.RingGroupsPage_Test"/>
+      <class name="testcases.ConferencePage_Test"/>
+      <class name="testcases.TimeZonePage_Test"/>
+      <class name="testcases.TimeGroupsPage_Test"/>
+      <class name="testcases.TimeConditionsPage_Test"/>
+      <class name="testcases.PagingIntercomPage_Test"/>
+      <class name="testcases.ListofDidsPage_Test"/>
+      <class name="testcases.IvrOptionsPage_Test"/>
+      <class name="testcases.FeatureCodePage_Test"/>
+      <class name="testcases.ListofExtensionsUserDevice_Test"/>
+      
+  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

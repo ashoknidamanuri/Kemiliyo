@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testcases.QueuesPage_Test">
+        <methods>
+          <include name="edit_queues"/>
+          <include name="add_queues"/>
+          <include name="setup"/>
+          <include name="queues_validation"/>
+          <include name="teardown"/>
+          <include name="delete_queues"/>
+        </methods>
+      </class> <!-- testcases.QueuesPage_Test -->
+      <class name="testcases.ListofDidsPage_Test">
+        <methods>
+          <include name="add_callforwardfield"/>
+          <include name="add_listofdid"/>
+          <include name="addsamedid_listofdid"/>
+          <include name="edit_listdid"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.ListofDidsPage_Test -->
+      <class name="testcases.TimeGroupsPage_Test">
+        <methods>
+          <include name="edit_timegroup"/>
+          <include name="add_timegroup"/>
+          <include name="setup"/>
+          <include name="add1_timegroup"/>
+        </methods>
+      </class> <!-- testcases.TimeGroupsPage_Test -->
+      <class name="testcases.ListofExtensionsUserDevice_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="delete_extension"/>
+          <include name="teardown"/>
+          <include name="check_bulk_extension"/>
+        </methods>
+      </class> <!-- testcases.ListofExtensionsUserDevice_Test -->
+      <class name="testcases.SystemRecordingPage_Test">
+        <methods>
+          <include name="edit_systemrecord"/>
+          <include name="setup"/>
+          <include name="withoutselectradioedit"/>
+          <include name="withoutselectradiodelete"/>
+          <include name="teardown"/>
+          <include name="add_systemrecord"/>
+          <include name="delete_systemrecord"/>
+        </methods>
+      </class> <!-- testcases.SystemRecordingPage_Test -->
+      <class name="testcases.ListofExtensionsPage_test">
+        <methods>
+          <include name="edit_follow_extension"/>
+          <include name="delete_extension"/>
+          <include name="teardown"/>
+          <include name="check_bulk_extension"/>
+          <include name="followme_extension"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.ListofExtensionsPage_test -->
+      <class name="testcases.MusiconHoldPage_Test">
+        <methods>
+          <include name="edit_musichold"/>
+          <include name="field_validation"/>
+          <include name="delete_musichold"/>
+          <include name="add_musichold"/>
+          <include name="teardown"/>
+          <include name="file_field_validation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.MusiconHoldPage_Test -->
+      <class name="testcases.ListofExtensionsSipPage_Test">
+        <methods>
+          <include name="check_bulk_extension"/>
+          <include name="teardown"/>
+          <include name="delete_extension"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.ListofExtensionsSipPage_Test -->
+      <class name="testcases.FeatureCodePage_Test">
+        <methods>
+          <include name="featurecode_validation"/>
+          <include name="deactive_validation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.FeatureCodePage_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

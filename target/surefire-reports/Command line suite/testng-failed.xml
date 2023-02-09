@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="testcases.UserSystemRecordingPage_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="add_systemrecord"/>
+          <include name="delete_systemrecord"/>
+          <include name="edit_systemrecord"/>
+        </methods>
+      </class> <!-- testcases.UserSystemRecordingPage_Test -->
+      <class name="testcases.ListofCustomersPage_Test">
+        <methods>
+          <include name="view"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.ListofCustomersPage_Test -->
+      <class name="testcases.SystemRecordingPage_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="withoutselectradiodelete"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.SystemRecordingPage_Test -->
+      <class name="testcases.UserLoginPage_Test">
+        <methods>
+          <include name="loginTest"/>
+          <include name="getmethodstatus"/>
+          <include name="generatereports"/>
+          <include name="endreport"/>
+        </methods>
+      </class> <!-- testcases.UserLoginPage_Test -->
+      <class name="testcases.ListofDidsPage_Test">
+        <methods>
+          <include name="add_callforwardfield"/>
+          <include name="add_listofdid"/>
+          <include name="addsamedid_listofdid"/>
+          <include name="edit_listdid"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.ListofDidsPage_Test -->
+      <class name="testcases.AnnouncementsPage_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="delete_announcement"/>
+        </methods>
+      </class> <!-- testcases.AnnouncementsPage_Test -->
+      <class name="testcases.TimeGroupsPjsipPage_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="add1_timegroup"/>
+          <include name="delete_timegroup"/>
+          <include name="edit_timegroup"/>
+        </methods>
+      </class> <!-- testcases.TimeGroupsPjsipPage_Test -->
+      <class name="testcases.UserQueuesPage_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="add_queues"/>
+          <include name="setup"/>
+          <include name="edit_queues"/>
+          <include name="queues_validation"/>
+          <include name="delete_queues"/>
+        </methods>
+      </class> <!-- testcases.UserQueuesPage_Test -->
+      <class name="testcases.UserMusiconHoldPage_Test">
+        <methods>
+          <include name="add_musichold"/>
+          <include name="musiconhold_validation"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="edit_musichold"/>
+          <include name="field_validation"/>
+        </methods>
+      </class> <!-- testcases.UserMusiconHoldPage_Test -->
+      <class name="testcases.UserRingGroupsPage_Test">
+        <methods>
+          <include name="add_ringgroup"/>
+          <include name="ringgroup_validation"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="edit_ringgroup"/>
+          <include name="delete_ringgroup"/>
+        </methods>
+      </class> <!-- testcases.UserRingGroupsPage_Test -->
+      <class name="testcases.UserDirectoryPage_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="withoutradioedit"/>
+          <include name="directory_validation"/>
+          <include name="add_directroy"/>
+          <include name="edit_directroy"/>
+          <include name="assign_directroy"/>
+          <include name="delete_directroy"/>
+          <include name="withoutradiodelete"/>
+        </methods>
+      </class> <!-- testcases.UserDirectoryPage_Test -->
+      <class name="testcases.ListofExtensionsSipPage_Test">
+        <methods>
+          <include name="edit_extension"/>
+          <include name="add_extension"/>
+          <include name="edit_follow_extension"/>
+          <include name="check_bulk_extension"/>
+          <include name="followme_extension"/>
+          <include name="teardown"/>
+          <include name="delete_extension"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.ListofExtensionsSipPage_Test -->
+      <class name="testcases.ConferencePjsipPage_Test">
+        <methods>
+          <include name="edit_conferencepage"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="delete_conferencepage"/>
+        </methods>
+      </class> <!-- testcases.ConferencePjsipPage_Test -->
+      <class name="testcases.UserTimezonePage_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="add_timezone"/>
+          <include name="edit_timezone"/>
+          <include name="teardown"/>
+          <include name="timezone_validation"/>
+        </methods>
+      </class> <!-- testcases.UserTimezonePage_Test -->
+      <class name="testcases.AddCustomerPage_Test">
+        <methods>
+          <include name="add_customerUserDevice"/>
+          <include name="add_customersip"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.AddCustomerPage_Test -->
+      <class name="testcases.DirectoryPage_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="assign_directroy"/>
+          <include name="delete_directroy"/>
+          <include name="edit_directroy"/>
+          <include name="withoutradiodelete"/>
+          <include name="withoutradioedit"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.DirectoryPage_Test -->
+      <class name="testcases.FeatureCodePage_Test">
+        <methods>
+          <include name="deactive_validation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.FeatureCodePage_Test -->
+      <class name="testcases.UserAnnouncementPage_Test">
+        <methods>
+          <include name="edit_announcement"/>
+          <include name="add_announcement"/>
+          <include name="announcement_validation"/>
+          <include name="teardown"/>
+          <include name="delete_announcement"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.UserAnnouncementPage_Test -->
+      <class name="testcases.LoginPage_Test">
+        <methods>
+          <include name="getmethodstatus"/>
+          <include name="loginTest"/>
+          <include name="endreport"/>
+          <include name="generatereports"/>
+        </methods>
+      </class> <!-- testcases.LoginPage_Test -->
+      <class name="testcases.MusiconHoldPage_Test">
+        <methods>
+          <include name="edit_musichold"/>
+          <include name="field_validation"/>
+          <include name="delete_musichold"/>
+          <include name="add_musichold"/>
+          <include name="teardown"/>
+          <include name="file_field_validation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.MusiconHoldPage_Test -->
+      <class name="testcases.TimeGroupsPage_Test">
+        <methods>
+          <include name="edit_timegroup"/>
+          <include name="setup"/>
+          <include name="add1_timegroup"/>
+        </methods>
+      </class> <!-- testcases.TimeGroupsPage_Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
